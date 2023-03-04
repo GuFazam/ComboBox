@@ -50,7 +50,7 @@
             "10",
             "11",
             "12"});
-            this.cmbEscolha.Location = new System.Drawing.Point(235, 69);
+            this.cmbEscolha.Location = new System.Drawing.Point(270, 67);
             this.cmbEscolha.Name = "cmbEscolha";
             this.cmbEscolha.Size = new System.Drawing.Size(121, 21);
             this.cmbEscolha.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 72);
+            this.label1.Location = new System.Drawing.Point(51, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(213, 16);
             this.label1.TabIndex = 1;
@@ -67,31 +67,35 @@
             // 
             // btnCliqueAqui
             // 
+            this.btnCliqueAqui.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCliqueAqui.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliqueAqui.Location = new System.Drawing.Point(362, 69);
+            this.btnCliqueAqui.Location = new System.Drawing.Point(397, 67);
             this.btnCliqueAqui.Name = "btnCliqueAqui";
             this.btnCliqueAqui.Size = new System.Drawing.Size(205, 23);
             this.btnCliqueAqui.TabIndex = 2;
             this.btnCliqueAqui.Text = "Escolha um número e clique aqui!";
             this.btnCliqueAqui.UseVisualStyleBackColor = true;
+            this.btnCliqueAqui.Click += new System.EventHandler(this.btnCliqueAqui_Click);
             // 
             // btnSair
             // 
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(502, 194);
+            this.btnSair.Location = new System.Drawing.Point(537, 192);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(65, 25);
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(108, 171);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(31, 143);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 25);
+            this.label2.Size = new System.Drawing.Size(0, 24);
             this.label2.TabIndex = 4;
             // 
             // Form1
