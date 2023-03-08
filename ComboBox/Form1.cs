@@ -19,55 +19,57 @@ namespace ComboBox
 
         private void btnCliqueAqui_Click(object sender, EventArgs e)
         {
+           string nome = textBoxNome.Text;
+
             switch (Convert.ToInt32(cmbEscolha.SelectedItem))
             {
                 case 1:
-                    label2.Text = "O mês 1 é equivalente a Janeiro";
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Janeiro";
                         break;
 
                 case 2:
-                    label2.Text = "O mês 2 é equivalente a Fevereiro";
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Fevereiro";
                        break;
 
                 case 3:
-                    label2.Text = "O mês 3 é equivalente a Março";
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Março";
                        break;
 
                 case 4:
-                    label2.Text = "O mês 4 é equivalente a Abril";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Abril";
+                    break;
 
                 case 5:
-                    label2.Text = "O mês 5 é equivalente a Maio";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Maio";
+                    break;
 
                 case 6:
-                    label2.Text = "O mês 6 é equivalente a Junho";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Junho";
+                    break;
 
                 case 7:
-                    label2.Text = "O mês 7 é equivalente a Julho";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Julho";
+                    break;
 
                 case 8:
-                    label2.Text = "O mês 8 é equivalente a Agosto";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Agosto";
+                    break;
 
                 case 9:
-                    label2.Text = "O mês 9 é equivalente a Setembro";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Setembro";
+                    break;
 
                 case 10:
-                    label2.Text = "O mês 10 é equivalente a Outubro";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Outubro";
+                    break;
 
                 case 11:
-                    label2.Text = "O mês 11 é equivalente a Novembro";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Novembro";
+                    break;
 
                 case 12:
-                    label2.Text = "O mês " + cmbEscolha.Text + "é equivalente a Dezembro";
-                       break;
+                    label2.Text = "Olá " + textBoxNome.Text + "Você nasceu em Dezembro";
+                    break;
 
                 default:
                     label2.Text = "Por favor escolha uma opção de números, MÊS não encontrado";

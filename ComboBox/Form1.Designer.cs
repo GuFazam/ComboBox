@@ -33,6 +33,8 @@
             this.btnCliqueAqui = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cmbEscolha
@@ -50,7 +52,7 @@
             "10",
             "11",
             "12"});
-            this.cmbEscolha.Location = new System.Drawing.Point(270, 67);
+            this.cmbEscolha.Location = new System.Drawing.Point(280, 123);
             this.cmbEscolha.Name = "cmbEscolha";
             this.cmbEscolha.Size = new System.Drawing.Size(121, 21);
             this.cmbEscolha.TabIndex = 0;
@@ -59,7 +61,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 70);
+            this.label1.Location = new System.Drawing.Point(61, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(213, 16);
             this.label1.TabIndex = 1;
@@ -69,7 +71,7 @@
             // 
             this.btnCliqueAqui.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCliqueAqui.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliqueAqui.Location = new System.Drawing.Point(397, 67);
+            this.btnCliqueAqui.Location = new System.Drawing.Point(407, 123);
             this.btnCliqueAqui.Name = "btnCliqueAqui";
             this.btnCliqueAqui.Size = new System.Drawing.Size(205, 23);
             this.btnCliqueAqui.TabIndex = 2;
@@ -81,7 +83,7 @@
             // 
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(537, 192);
+            this.btnSair.Location = new System.Drawing.Point(547, 248);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(65, 25);
             this.btnSair.TabIndex = 3;
@@ -93,10 +95,27 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 143);
+            this.label2.Location = new System.Drawing.Point(41, 199);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 24);
             this.label2.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(61, 70);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(123, 15);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Digite seu código:";
+            // 
+            // textBoxNome
+            // 
+            this.textBoxNome.Location = new System.Drawing.Point(190, 70);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(312, 20);
+            this.textBoxNome.TabIndex = 6;
             // 
             // Form1
             // 
@@ -104,6 +123,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(677, 320);
+            this.Controls.Add(this.textBoxNome);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCliqueAqui);
@@ -123,6 +144,8 @@
         private System.Windows.Forms.Button btnCliqueAqui;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxNome;
     }
 }
 
